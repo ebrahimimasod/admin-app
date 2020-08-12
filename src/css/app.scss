@@ -1,0 +1,68 @@
+
+
+@font-face {
+  font-family: "iransans";
+  src: url('/fonts/iransanse/eot/IRANSansWeb.eot?&#iefix') format('embedded-opentype'),
+  url('/fonts/iransanse/woff/IRANSansWeb.woff') format('woff'),
+  url('/fonts/iransanse/ttf/IRANSansWeb.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: "iransans-black";
+  src: url('/fonts/iransanse/eot/IRANSansWeb_Black.eot?&#iefix') format('embedded-opentype'),
+  url('/fonts/iransanse/woff/IRANSansWeb_Black.woff') format('woff'),
+  url('/fonts/iransanse/ttf/IRANSansWeb_Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "iransans-bold";
+  src: url('/fonts/iransanse/eot/Bold.eot?&#iefix') format('embedded-opentype'),
+  url('/fonts/iransanse/woff/Bold.woff') format('woff'),
+  url('/fonts/iransanse/ttf/Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "iransans-light";
+  src: url('/fonts/iransanse/eot/IRANSansWeb_Light.eot?&#iefix') format('embedded-opentype'),
+  url('/fonts/iransanse/woff/IRANSansWeb_Light.woff') format('woff'),
+  url('/fonts/iransanse/ttf/IRANSansWeb_Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "iransans-medium";
+  src: url('/fonts/iransanse/eot/IRANSansWeb_Medium.eot?&#iefix') format('embedded-opentype'),
+  url('/fonts/iransanse/woff/IRANSansWeb_Medium.woff') format('woff'),
+  url('/fonts/iransanse/ttf/IRANSansWeb_Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "iransans-ultralight";
+  src: url('/fonts/iransanse/eot/IRANSansWeb_UltraLight.eot?&#iefix') format('embedded-opentype'),
+  url('/fonts/iransanse/woff/IRANSansWeb_UltraLight.woff') format('woff'),
+  url('/fonts/iransanse/ttf/IRANSansWeb_UltraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "iransans-num";
+  src: url('/fonts/iransanse/eot/IRANSansWeb(FaNum).eot?&#iefix') format('embedded-opentype'),
+  url('/fonts/iransanse/woff/IRANSansWeb(FaNum).woff') format('woff'),
+  url('/fonts/iransanse/ttf/IRANSansWeb(FaNum).ttf') format('truetype');
+}
+
+* {
+  font-family: 'iransans-light', sans-serif;
+}
+a, a:hover, a:visited, a:link, a:focus {
+  text-decoration: none;
+  color: $dark;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+input[type=number] {
+  -moz-appearance: textfield; /* Firefox */
+}
